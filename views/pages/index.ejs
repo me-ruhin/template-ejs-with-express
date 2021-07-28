@@ -1,0 +1,21 @@
+<%- include('./partials/header')%>
+
+    <%- include('./partials/navbar') %>
+    <h1 style="color:red">  <%= msg %> - <%= new Date().toString()  %></h1>
+
+    <!-- <% if(post.isPublished==1) { %>
+        <h2><%= post.title %></h2>
+        <h2><%= post.author %></h2>
+        <% } else if(post.isPublished==2){ %>
+            <h2>The Post Rejected</h2>
+            <% } else{ %>
+                <h2>The Post is  not published Yet</h2>
+                <% } %>
+
+
+                <ul>
+                    <% for(let spost of posts){%>
+                            <li> <%= spost.title%> -   <%= spost.body %></li>
+                        <%}%>
+                </ul> -->
+                <%- include('./partials/footer')%>
